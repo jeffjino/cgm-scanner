@@ -81,7 +81,7 @@ public class AppController extends Application {
     }
 
     public File getRootDirectory(Context c) {
-        if (BuildConfig.DEBUG) {
+        if (true) {
             return getPublicAppDirectory(c);
         }
 

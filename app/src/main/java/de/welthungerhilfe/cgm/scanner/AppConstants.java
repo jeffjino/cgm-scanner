@@ -101,7 +101,7 @@ public class AppConstants {
 
     public static final int MIN_CONFIDENCE = 100;
 
-    public static final int SCAN_FRAMESKIP = 6;
+    public static final int SCAN_FRAMESKIP = 1;
 
     public static final String IS_FOREGROUND = "isForeGround";
 

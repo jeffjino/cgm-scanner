@@ -61,7 +61,7 @@ public class LoginActivity extends AccountAuthenticatorActivity implements Authe
         if (!checkStoragePermissions()) {
             return;
         }
-        if (BuildConfig.DEBUG) {
+        if (true) {
             if (session.getEnvironment() == AppConstants.ENV_UNKNOWN) {
                 Toast.makeText(this, R.string.login_backend_environment, Toast.LENGTH_LONG).show();
                 return;

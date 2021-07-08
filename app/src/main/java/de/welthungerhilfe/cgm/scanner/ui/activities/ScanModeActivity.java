@@ -426,7 +426,7 @@ public class ScanModeActivity extends BaseActivity implements View.OnClickListen
             mProgress = 100;
             runOnUiThread(() -> {
                 fab.setImageResource(R.drawable.done);
-                goToNextStep();
+                //goToNextStep();
             });
         } else {
             mProgress = mProgress + progressToAdd;
